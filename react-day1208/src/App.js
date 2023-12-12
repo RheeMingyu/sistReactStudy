@@ -7,6 +7,7 @@ import ThirdApp from './components/ThirdApp';
 import FourthApp from './components/FourthApp';
 import FifthApp from './components/FifthApp';
 import SixthApp from './components/SixthApp';
+import SeventhApp from './components/SeventhApp';
 
 function App() {
 
@@ -25,9 +26,10 @@ function App() {
         <option value='4'>FourApp확인하기</option>
         <option value='5'>FiveApp확인하기</option>
         <option value='6'>SixApp확인하기</option>
+        <option value='7'>SevenApp확인하기</option>
       </select>
 
-      {index===1?<FirstApp/>:index===2?<SecondApp/>:index===3?<ThirdApp/>:index===4?<FourthApp/>:index===5?<FifthApp/>:<SixthApp/>}
+      {index===1?<FirstApp/>:index===2?<SecondApp/>:index===3?<ThirdApp/>:index===4?<FourthApp/>:index===5?<FifthApp/>:index===6?<SixthApp/>:<SeventhApp/>}
     </div>
   );
 }

@@ -28,6 +28,7 @@ function FourthApp(props) {
                 <ol>
                     {nameList}
                 </ol>
+                <Alert severity='warning'>과제_배열색상 가로로 출력</Alert>
                 {colors.map((color)=>(<div className='box' style={{backgroundColor:color}}>{color}</div>))}
             </div>
         </div>
